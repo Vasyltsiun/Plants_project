@@ -1,10 +1,18 @@
+@font-face {
+    font-family: poppins;
+    src: url(fonts/Poppins/Poppins-Regular.ttf);
+}
+
+
+
+
 * {
     box-sizing: border-box;
 }
 .page-wrap {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     min-height: 100vh;
 }
 .container {
@@ -12,13 +20,14 @@
     margin: 0 auto;
 }
 .header {
+    position: relative;
     width: 1920px;
     height: 144px;
 }
 .top-navbar {
-display: flex;
-align-items: center;
-justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background: rgb(12, 75, 53);
     width: 1920px;
     height: 59px;
@@ -36,6 +45,9 @@ justify-content: center;
     color: rgb(255, 255, 255);
     width: 1418px;
     height: 25px;
+    font-family: poppins;
+    font-size: 14px;
+    font-weight: 400;
 }
 .email-phone-address-navbar {
     display: inline-flex;
@@ -81,6 +93,14 @@ justify-content: center;
 .language-top-navbar {
     display: flex;
     justify-content: end;
+    align-items: center;
     width: 50%;
     list-style: none;
+}
+.vector-navbar {
+    background-image: url(images/vector-navbar.png);
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 6px;
+    background-position: center;
 }
