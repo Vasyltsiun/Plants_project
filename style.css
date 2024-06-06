@@ -7,3 +7,80 @@
     justify-content: space-between;
     min-height: 100vh;
 }
+.container {
+    width: 1920px;
+    margin: 0 auto;
+}
+.header {
+    width: 1920px;
+    height: 144px;
+}
+.top-navbar {
+display: flex;
+align-items: center;
+justify-content: center;
+    background: rgb(12, 75, 53);
+    width: 1920px;
+    height: 59px;
+}
+.bottom-navbar {
+    box-shadow: 0px 2px 30px 0px rgba(0, 0, 0, 0.15);
+    background: rgb(255, 255, 255);
+    width: 1920px;
+    height: 85px;
+}
+.text-top-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    width: 1418px;
+    height: 25px;
+}
+.email-phone-address-navbar {
+    display: inline-flex;
+    width: 50%;
+    justify-content: space-between;
+}
+.email-navbar {
+    display: flex;
+    align-items: center;
+    width: 281px;
+    height: 25px;
+}
+.icon-email-navbar {
+    background-image: url(images/mail-navbar.png);
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 25px;
+}
+.phone-navbar {
+    display: flex;
+    align-items: center;
+    width: 135px;
+    height: 25px;
+}
+.icon-phone-navbar {
+    background-image: url(images/phone-call-navbar.png);
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 25px;
+}
+.address-navbar {
+    display: flex;
+    align-items: center;
+    width: 268px;
+    height: 25px;
+}
+.icon-address-navbar {
+    background-image: url(images/location-navbar.png);
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 25px;
+}
+.language-top-navbar {
+    display: flex;
+    justify-content: end;
+    width: 50%;
+    list-style: none;
+}
