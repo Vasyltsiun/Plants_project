@@ -313,7 +313,7 @@
     }
     .email-phone-address-navbar {
         display: inline-flex;
-        width: 35%;
+        width: 30%;
         height: 20px;
         justify-content: space-between;
     }
@@ -321,7 +321,7 @@
         display: flex;
         justify-content: end;
         align-items: center;
-        width: 65%;
+        width: 70%;
         list-style: none;
     }
     .email-navbar {
@@ -366,15 +366,15 @@
     .call-bottom-navbar {
         display: flex;
         align-items: center;
-        justify-content: right;
-        width: 20%;
+        justify-content: center;
+        width: 25%;
         height: 34px;
     }
     .call-us-button {
         display: none;
     }
     .logo-plants {
-        width: 60%;
+        width: 55%;
         height: 40px;
         margin-left: 15px;
     }
@@ -398,6 +398,62 @@
     .bla-bla-blog {
         width: 20%;
         height: 34px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .bla-bla-blog1 {
+        width: 25px;
+        height: 25px;
+        background-image: url(images/cross/first-stick.png);
+        background-repeat: no-repeat;
+
+    }
+    .bla-bla-blog2 {
+        width: 25px;
+        height: 25px;
+        background-image: url(images/cross/second-stick.png);
+        background-repeat: no-repeat;
+        margin-left: -25px;
+    }
+    .icon-callset {
+        background-image: url(images/phone-call-navbar-mob.png);
+        background-repeat: no-repeat;
+        background-position: left;
+        width: 27px;
+        height: 20px;
+    }
+    .icon-callcloud {
+        background-image: url(images/phone-cloud-mob.png);
+        background-repeat: no-repeat;
+        background-position: left;
+        width: 29px;
+        height: 27px;
+        margin-top: 5px;
+        margin-left: -5px;
+
+    }
+    .plants {
+        height: 21px;
+        width: 72px;
+        background-image: url(images/plants-logo/plants-logo-mob.png);
+        background-repeat: no-repeat;
+    }
+    .vector-plants {
+        width: 17px;
+        height: 14px;
+        background-image: url(images/plants-logo/plants-logo-leefs.png);
+        background-repeat: no-repeat;
+        margin-left: 0px;
+    }
+    .plants-s {
+        width: 17px;
+        height: 20px;
+        background-image: url(images/plants-logo/plants-logo-s.png);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        margin-left: -16px;
+        margin-top: 2px;
     }
 }
 
