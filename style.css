@@ -9,7 +9,6 @@
 
 
 
-/*@media (min-width:1920px) {*/
 * {
     box-sizing: border-box;
 }
@@ -24,8 +23,7 @@
     margin: 0 auto;
 }
 .header {
-    margin: 0 auto;
-    width: 1920px;
+    width: 100%;
     height: 144px;
 }
 
@@ -130,6 +128,7 @@
     width: 1408px;
     height: 55px;
 }
+
 .bottom-navbar-menu a {
     display: flex;
     justify-content: space-between;
@@ -142,6 +141,7 @@
     background-image: url(images/errow-to-menu.png);
     background-repeat: no-repeat;
     background-position: right;
+    padding-right: 15px;
 }
 .bottom-navbar-menu a:hover {
     color: rgb(0, 115, 12);
@@ -149,26 +149,7 @@
     background-repeat: no-repeat;
     background-position: right;
 }
-.bottom-navbar-menu-arrow1 {
-    width: 62px;
-    height: 20px;
-}
-.bottom-navbar-menu-arrow2 {
-    width: 87px;
-    height: 20px;
-}
-.bottom-navbar-menu-arrow3 {
-    width: 79px;
-    height: 20px;
-}
-.bottom-navbar-menu-arrow4 {
-    width: 70px;
-    height: 20px;
-}
-.bottom-navbar-menu-arrow5 {
-    width: 51px;
-    height: 20px;
-}
+
 .bottom-navbar-menu-arrow6 a {
     background-image: none;
 }
@@ -178,7 +159,7 @@
 .logo-plants {
     display: flex;
     align-items: center;
-    width: 36%;
+    width: 510px;
     height: 55px;
 }
 .plants {
@@ -199,7 +180,7 @@
 }
 .bottom-navbar-menu {
     display: flex;
-    width: 44%;
+    width: 627px;
     height: 55px;
     list-style: none;
     align-items: center;
@@ -209,7 +190,7 @@
     display: flex;
     align-items: center;
     justify-content: right;
-    width: 20%;
+    width: 271px;
     height: 55px;
 }
 .call-button {
@@ -366,15 +347,15 @@
     .call-bottom-navbar {
         display: flex;
         align-items: center;
-        justify-content: center;
-        width: 25%;
+        justify-content: left;
+        width: 55px;
         height: 34px;
     }
     .call-us-button {
         display: none;
     }
     .logo-plants {
-        width: 55%;
+        width: 235px;
         height: 40px;
         margin-left: 15px;
     }
@@ -396,10 +377,10 @@
         margin-bottom: 5px;
     }
     .bla-bla-blog {
-        width: 20%;
+        width: 55px;
         height: 34px;
         display: flex;
-        justify-content: center;
+        justify-content: right;
         align-items: center;
     }
     .bla-bla-blog1 {
