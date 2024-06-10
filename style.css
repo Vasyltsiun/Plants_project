@@ -18,8 +18,8 @@
     justify-content: space-between;
     min-height: 100vh;
 }
-.container {
-    min-width: 1920px;
+.main-container {
+    max-width: 1920px;
     margin: 0 auto;
 }
 .header {
@@ -50,7 +50,7 @@
 }
 .email-phone-address-navbar {
     display: inline-flex;
-    width: 52%;
+    width: 710px;
     justify-content: space-between;
 }
 .email-navbar {
@@ -93,7 +93,7 @@
     display: flex;
     justify-content: end;
     align-items: center;
-    width: 48%;
+    width: 710px;
     list-style: none;
 }
 .language-top-navbar a {
@@ -341,10 +341,9 @@
         flex-direction: column;
         justify-content: space-between;
         min-height: 100vh;
-        width: 375px;
-    }
+     }
     .container {
-        width: 375px;
+        max-width: 375px;
         margin: 0 auto;
     }
     .header {
@@ -378,7 +377,7 @@
     }
     .email-phone-address-navbar {
         display: inline-flex;
-        width: 30%;
+        width: 140px;
         height: 20px;
         justify-content: space-between;
     }
@@ -386,7 +385,7 @@
         display: flex;
         justify-content: end;
         align-items: center;
-        width: 70%;
+        width: 223px;
         list-style: none;
     }
     .email-navbar {
@@ -519,6 +518,9 @@
         background-position: bottom;
         margin-left: -16px;
         margin-top: 2px;
+    }
+    .head-baner {
+        display: none;
     }
 }
 
