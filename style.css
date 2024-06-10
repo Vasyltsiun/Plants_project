@@ -9,7 +9,7 @@
 
 
 
-* {
+*{
     box-sizing: border-box;
 }
 .page-wrap {
@@ -19,7 +19,7 @@
     min-height: 100vh;
 }
 .container {
-    width: 1920px;
+    min-width: 1920px;
     margin: 0 auto;
 }
 .header {
@@ -34,8 +34,8 @@
     align-items: center;
     justify-content: center;
     background: rgb(12, 75, 53);
-    width: 1920px;
-    height: 59px;
+    width: 100%;
+    height: 60px;
 }
 .text-top-navbar {
     display: flex;
@@ -120,7 +120,7 @@
     justify-content: center;
     box-shadow: 0px 2px 30px 0px rgba(0, 0, 0, 0.15);
     background: rgb(255, 255, 255);
-    width: 1920px;
+    width: 100%;
     height: 85px;
 }
 .bottom-navbar-content {
@@ -253,7 +253,7 @@
 /*Third part*/
 .head-baner {
     display: flex;
-    width: 1920px;
+    width: 100%;
     height: 719px;
     margin: 0 auto;
     background-image: url(images/head-baner/head-baner.png)
