@@ -40,9 +40,9 @@
 .text-top-navbar {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     color: rgb(255, 255, 255);
-    width: 1418px;
+    width: 1408px;
     height: 25px;
     font-family: poppins;
     font-size: 14px;
@@ -50,14 +50,14 @@
 }
 .email-phone-address-navbar {
     display: inline-flex;
-    width: 710px;
+
     justify-content: space-between;
 }
 .email-navbar {
     display: flex;
     align-items: center;
-    width: 281px;
     height: 25px;
+    margin-right: 10px;
 }
 .icon-email-navbar {
     background-image: url(images/mail-navbar.png);
@@ -68,8 +68,8 @@
 .phone-navbar {
     display: flex;
     align-items: center;
-    width: 135px;
     height: 25px;
+    margin-right: 10px;
 }
 .icon-phone-navbar {
     background-image: url(images/phone-call-navbar.png);
@@ -80,7 +80,6 @@
 .address-navbar {
     display: flex;
     align-items: center;
-    width: 268px;
     height: 25px;
 }
 .icon-address-navbar {
@@ -93,7 +92,6 @@
     display: flex;
     justify-content: end;
     align-items: center;
-    width: 710px;
     list-style: none;
 }
 .language-top-navbar a {
@@ -125,29 +123,35 @@
 }
 .bottom-navbar-content {
     display: flex;
+    justify-content: space-between;
     width: 1408px;
     height: 55px;
 }
-
-.bottom-navbar-menu a {
+.bottom-navbar-menu-between {
     display: flex;
     justify-content: space-between;
+}
+.bottom-navbar-menu li {
+    margin-right: 20px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bottom-navbar-menu a {
+    width: 70px;
+    display: flex;
+    justify-content: center;
     text-decoration: none;
     font-family: nunito;
     font-size: 16px;
     font-weight: 700;
     line-height: 20px;
     color: rgb(33, 37, 41);
-    background-image: url(images/errow-to-menu.png);
-    background-repeat: no-repeat;
-    background-position: right;
-    padding-right: 15px;
+
 }
 .bottom-navbar-menu a:hover {
     color: rgb(0, 115, 12);
-    background-image: url(images/errow-to-menu-blue.png);
-    background-repeat: no-repeat;
-    background-position: right;
 }
 
 .bottom-navbar-menu-arrow6 a {
@@ -159,7 +163,6 @@
 .logo-plants {
     display: flex;
     align-items: center;
-    width: 510px;
     height: 55px;
 }
 .plants {
@@ -180,7 +183,6 @@
 }
 .bottom-navbar-menu {
     display: flex;
-    width: 627px;
     height: 55px;
     list-style: none;
     align-items: center;
@@ -190,8 +192,8 @@
     display: flex;
     align-items: center;
     justify-content: right;
-    width: 271px;
     height: 55px;
+    margin-left: 20px;
 }
 .call-button {
     display: flex;
