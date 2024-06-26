@@ -667,6 +667,116 @@
 
 
 
+
+/*Choose blog*/
+.choose-blog {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 655px;
+    background: rgb(12, 75, 53);
+}
+.first-choose-blog {
+    width: 8%;
+    background-image: url(images/choose-blog/leef-left.png);
+    background-position: left;
+    background-repeat: no-repeat;
+
+}
+.second-choose-blog {
+    width: 42%;
+    position: relative;
+}
+.second-choose-blog-position {
+    position: absolute;
+    bottom: 10%;
+}
+.choose-blog-text {
+    color: rgb(255, 255, 255);
+    font-family: nunito;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 61px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin: 30px 0px;
+}
+.choose-main-text {
+    color: rgb(255, 255, 255);
+    font-family: nunito;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin: 30px 0px;
+}
+.third-choose-blog {
+    width: 45%;
+    background-image: url(images/choose-blog/choose-img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.fourth-choose-blog {
+    width: 5%;
+    background-image: url(images/choose-blog/leef-right.png);
+    background-position: right;
+}
+.choose-cards {
+    margin: 50px 0px;
+}
+.choose-line-col {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 33px;
+    margin: 15px;
+}
+.choose-img {
+    height: 50px;
+    width: 50px;
+    background-image: url(images/choose-blog/tick.png);
+}
+.choose-first-text {
+    color: rgb(255, 255, 255);
+    font-family: Nunito;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0px;
+    text-align: left;
+    text-transform: capitalize;
+}
+.choose-button-discover {
+    width: 190px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0 0 30px;
+    background: none;
+    color: rgb(255, 255, 255);
+    font-family: nunito;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width:375px) {
     .page-wrap {
         display: flex;
