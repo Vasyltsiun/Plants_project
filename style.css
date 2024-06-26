@@ -19,8 +19,14 @@
     min-height: 100vh;
     
 }
-.main-container {
+.container {
+    max-width: 1408px;
     width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.main-container {
+    max-width: 100%;
     margin: 0 auto;
 }
 .header {
@@ -163,7 +169,6 @@
     background-image: none;
 }
 .logo-plants {
-    width: 35%;
     display: flex;
     align-items: center;
     height: 55px;
@@ -272,6 +277,7 @@
 .first-head-baner {
     display: flex;
     align-items: end;
+    width: 15%;
     height: 719px;
 }
 .first-img-head-baner {
@@ -290,7 +296,6 @@
     display: flex;
     align-items: end;
     width: 50%;
-
 }
 .first-content-head-baner {
     display: flex;
@@ -429,13 +434,14 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 963px;
+    height: 1100px;
     background-image: url(images/services-blog/plants.png);
     background-repeat: no-repeat;
     background-position: right;
 }
 .head-services-blog {
     position: absolute;
+    height: 1000px;
 }
 .services-blog-text {
     width: 65%;
@@ -530,6 +536,107 @@
 
 
 
+
+/*frame-blog*/
+.frame-blog {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 903px;
+    background-image: url(images/frame-blog/leefs.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.frame-col {
+    width: 39%;
+    height: 903px;
+    margin: 10px;
+}
+.frame-title-text {
+    font-family: nunito;
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 61px;
+    text-align: left;
+    color: rgb(0, 115, 12);
+    margin-top: 30px;
+}
+.frame-main-text {
+    color: rgb(103, 103, 103);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    margin-top: 30px;
+}
+.frame-cards {
+    margin-top: 50px;
+    height: 224px;
+}
+.cards-line-col {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 97px;
+    margin: 15px;
+}
+.cards-first-img {
+    width: 67px;
+    height: 67px;
+    background-image: url(images/frame-blog/first-icon.png);
+    background-position: center;
+}
+.cards-second-img {
+    width: 67px;
+    height: 67px;
+    background-image: url(images/frame-blog/second-icon.png);
+    background-position: center;
+}
+.cards-third-img {
+    width: 67px;
+    height: 67px;
+    background-image: url(images/frame-blog/third-icon.png);
+    background-position: center;
+}
+.cards-fourth-img {
+    width: 67px;
+    height: 67px;
+    background-image: url(images/frame-blog/fourth-icon.png);
+    background-position: center;
+}
+.cards-first-text {
+    margin-left: 30px;
+    color: rgb(33, 37, 41);
+    font-family: Nunito;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0px;
+    text-align: left;
+    text-transform: capitalize;
+}
+.frame-button-discover {
+    width: 190px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 35px 13px 35px;
+    border-radius: 5px;
+    background: rgb(0, 115, 12);
+    color: rgb(255, 255, 255);
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    text-transform: capitalize;
+    margin-top: 50px;
+}
 
 
 
