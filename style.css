@@ -293,9 +293,14 @@
     bottom: 7%;
 }
 .second-img-head-baner {
-    display: flex;
-    align-items: end;
     width: 50%;
+}
+.second-img-head-baner-position {
+    width: 100%;
+    height: 95%;
+    object-fit: cover;
+    object-position: center;
+    margin-top: 5%;
 }
 .first-content-head-baner {
     display: flex;
