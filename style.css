@@ -678,19 +678,21 @@
     background: rgb(12, 75, 53);
 }
 .first-choose-blog {
-    width: 8%;
+    width: 10%;
     background-image: url(images/choose-blog/leef-left.png);
     background-position: left;
     background-repeat: no-repeat;
-
+    background-position-x: 78%;
+    background-position-y: -100%;
 }
 .second-choose-blog {
     width: 42%;
     position: relative;
+    margin-right: 30px;
 }
 .second-choose-blog-position {
     position: absolute;
-    bottom: 10%;
+    bottom: 15%;
 }
 .choose-blog-text {
     color: rgb(255, 255, 255);
@@ -710,21 +712,22 @@
     line-height: 30px;
     letter-spacing: 0px;
     text-align: left;
-    margin: 30px 0px;
 }
 .third-choose-blog {
-    width: 45%;
+    width: 40%;
     background-image: url(images/choose-blog/choose-img.png);
     background-repeat: no-repeat;
     background-position: center;
 }
 .fourth-choose-blog {
-    width: 5%;
+    width: 12%;
     background-image: url(images/choose-blog/leef-right.png);
     background-position: right;
+    background-position-x: 20%;
+    background-position-y: 200%;
 }
 .choose-cards {
-    margin: 50px 0px;
+    margin: 30px 0px;
 }
 .choose-line-col {
     display: flex;
@@ -755,7 +758,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: 50px 0 0 30px;
+    margin: 30px 0 0 30px;
     background: none;
     color: rgb(255, 255, 255);
     font-family: nunito;
