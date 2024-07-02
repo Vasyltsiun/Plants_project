@@ -147,7 +147,6 @@
     justify-content: center;
 }
 .bottom-navbar-menu a {
-    /*width: 70px;*/
     display: flex;
     justify-content: center;
     text-decoration: none;
@@ -315,7 +314,6 @@
     color: rgb(33, 37, 41);
 }
 .second-content-head-baner {
-    /*width: 600px;*/
     height: 158px;
     font-family: Nunito;
     font-size: 58px;
@@ -327,7 +325,7 @@
     margin: 20px 0px
 }
 .third-content-head-baner {
-    /*width: 556px;*/
+
     height: 60px;
     color: rgb(103, 103, 103);
     font-family: Nunito;
@@ -341,11 +339,9 @@
 .fourth-content-head-baner {
     display: flex;
     align-items: center;
-    /*width: 556px;*/
     height: 58px;
 }
 .left-button-head-baner {
-    /*width: 175px;*/
     height: 50px;
     color: rgb(255, 255, 255);
     font-family: Nunito;
@@ -479,8 +475,6 @@
     align-items: center;
     justify-content: center;
     height: 366px;
-
-
 }
 .bottom-cards {
     display: flex;
