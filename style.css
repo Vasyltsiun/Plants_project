@@ -1135,9 +1135,8 @@ text-align: left;
     .choose-blog {
         display: none;
     }
-    .between_call_cross {
-        width: 50%;
-        display: flex;
+    .working_process {
+        display: none;
     }
 
 
