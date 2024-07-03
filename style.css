@@ -777,6 +777,163 @@
 
 
 
+/*Working_process*/
+.working_process {
+    position: relative;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 700px;
+}
+.working_process_title {
+    font-family: Nunito;
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 61px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: rgb(0, 115, 12);
+    margin: 20px 0px;
+}
+.working_process_text {
+    color: rgb(103, 103, 103);
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+.working_process_cards {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 408px;
+    margin: 30px 0;
+}
+.working_cards_blog_first {
+    height: 408px;
+    width: 17%;
+    background-color: rgb(0, 115, 12);
+    padding: 30px 30px;
+    margin: 0px 15px;
+    border-radius: 10px;
+    box-shadow: 1px 3px 20px 0px rgba(0, 0, 0, 0.15);
+}
+.working_cards_blog_second {
+    padding: 30px 30px;
+    margin: 0px 15px;
+    height: 408px;
+    width: 17%;
+    border-radius: 10px;
+    box-shadow: 1px 3px 20px 0px rgba(0, 0, 0, 0.15);
+}
+.top_cards_blog {
+    color: rgb(255, 255, 255);
+    font-family: Nunito;
+    font-size: 78px;
+    font-weight: 800;
+    line-height: 106px;
+    letter-spacing: 0px;
+    text-align: right;
+    background-image: url(images/working_process/first_icon.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.top_cards_blog_second {
+    color: rgb(227, 227, 227);
+    font-family: Nunito;
+    font-size: 78px;
+    font-weight: 800;
+    line-height: 106px;
+    letter-spacing: 0px;
+    text-align: right;
+    background-image: url(images/working_process/second_icon.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.top_cards_blog_thid {
+    color: rgb(227, 227, 227);
+    font-family: Nunito;
+    font-size: 78px;
+    font-weight: 800;
+    line-height: 106px;
+    letter-spacing: 0px;
+    text-align: right;
+    background-image: url(images/working_process/third_icon.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.top_cards_blog_fourth {
+    color: rgb(227, 227, 227);
+    font-family: Nunito;
+    font-size: 78px;
+    font-weight: 800;
+    line-height: 106px;
+    letter-spacing: 0px;
+    text-align: right;
+    background-image: url(images/working_process/fourth_icon.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.middle_cards_blog {
+    color: rgb(255, 255, 255);
+    font-family: Nunito;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0px;
+    text-align: left;
+    text-transform: capitalize;
+    margin: 20px 0px;
+}
+.middle_cards_blog_second {
+    color: rgb(33, 37, 41);
+    font-family: Nunito;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0px;
+    text-align: left;
+    text-transform: capitalize;
+    margin: 20px 0px;
+}
+.cards_blog_background_first {
+    background-image: url(images/working_process/brunch_icon.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: 56%;
+}
+.cards_blog_background {
+    background-image: url(images/working_process/brunch.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: 56%;
+}
+.bottom_cards_blog_second {
+    color: rgb(103, 103, 103);
+font-family: Nunito;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0px;
+text-align: left;
+}
+.bottom_cards_blog {
+    color: rgb(255, 255, 255);
+font-family: Nunito;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0px;
+text-align: left;
+}
+
+
+
+
 
 
 
