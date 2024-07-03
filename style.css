@@ -1005,6 +1005,7 @@
         width: 345px;
     }
     .mobile_menu_ul a {
+        display: block;
         color: rgb(255, 255, 255);
         font-family: Nunito;
         font-size: 16px;
@@ -1022,15 +1023,16 @@
         border-bottom: 1px solid rgb(12, 95, 66);
     }
     .mobile_company {
+        position: relative;
         background-image: url(images/mobile/Vector.png);
         background-repeat: no-repeat;
         background-position: right;
         width: 310px;
-        height: 30.5px;
-        flex-grow: 0;
+        height: 260px;
         margin-bottom: 15px;
         border-bottom: 1px solid rgb(12, 95, 66);
         background-position-x: 25%;
+        background-position-y: 3%;
     }
     .mobile_services {
         background-image: url(images/mobile/Vector.png);
@@ -1042,6 +1044,23 @@
         flex-grow: 0;
         margin-bottom: 15px;
         border-bottom: 1px solid rgb(12, 95, 66);
+    }
+    .mobile_services:hover .mobile_drop_content{
+        display: block;
+    }
+    .mobile_drop_content {
+        position: relative;
+        display: block;
+        top: 5%;
+        width: 320px;
+        left: 0;
+        height: 260px;
+        margin-left: 25px;
+    }
+    .mobile_drop_content a {
+        width: 150px;
+        height: 22px;
+        margin-bottom: 10px;
     }
     .mobile_project {
         background-image: url(images/mobile/Vector.png);
